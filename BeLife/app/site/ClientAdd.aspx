@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    
     <h1 class="text-center">Registro Clientes</h1>
         <br />
         <table style="margin: 0 auto;" border="1" >
@@ -90,11 +91,13 @@
             </th>
         </tr>
     </table>
-
+    <%--<div class="btn btn-secondary">
+        <asp:Button ID="btn_create" Text="crear" runat="server" OnClick="btn_create_Click"/>
+    </div>--%>
     <br />
     <div class="trans text-center"> 
-    <button type="submit" class="btn btn-secondary">Enviar</button>
-    <a href="Clientes.aspx">Clientes.aspx</a>
+    <button type="submit" class="btn btn-secondary" onclick="">Enviar</button>
+    <a href="Clientes.aspx">Cancelar</a>
     </div>
     <br />
 </asp:Content>
